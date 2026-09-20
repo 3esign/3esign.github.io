@@ -1,8 +1,8 @@
 {
   "name": "HOLLOW PROOF",
   "symbol": "HOLLOW",
-  "status": "prelaunch-planned-ca-locked",
-  "updatedAt": "2026-09-20T16:41:05+02:00",
+  "status": "prelaunch-local-packet-refreshed-public-republish-required",
+  "updatedAt": "2026-09-20T20:58:00+02:00",
   "website": "https://hollow.ratchetx.xyz/",
   "metadata": "https://hollow.ratchetx.xyz/token.json",
   "image": "https://hollow.ratchetx.xyz/hollow-proof-token-art.png",
@@ -40,6 +40,38 @@
       "seedLamports": 650240,
       "inferredCollectedFeeLamports": 148149,
       "boundary": "No-spend simulation; proves SOL curve collect above rent seed, not full autonomous flywheel."
+    },
+    "localCurveLifecycleSvm": {
+      "result": "9 passed, 0 failed",
+      "boundary": "Local real-binary proof for curve collect, full drain, absence and resurrection; no signed mainnet settlement."
+    },
+    "localMigrationPumpSwapCollectSvm": {
+      "result": "10 passed, 0 failed",
+      "boundary": "Local real-binary proof for migration carry and PumpSwap collect custody with locally seeded WSOL; not real trade-fee accrual."
+    },
+    "localCurveFurnaceBuyBurn": {
+      "result": "local real-binary LiteSVM pass",
+      "boundary": "Local proof only; no demand or signed settlement."
+    },
+    "localPumpSwapRealFeeAccrual": {
+      "result": "local real-binary LiteSVM pass",
+      "accruedWsolLamports": 296297,
+      "collectedWsolLamports": 296297,
+      "boundary": "Local proof only; no signed settlement."
+    },
+    "localPoolPhaseFurnace": {
+      "result": "local real-binary LiteSVM pass",
+      "accruedWsolLamports": 296297,
+      "burnedRawBaseUnits": 580405283230,
+      "boundary": "Local proof only; no demand or signed settlement."
+    },
+    "unsignedLaunchPacket": {
+      "result": "built and inspected without signatures or broadcast",
+      "source": "hollow-launch-prep/unsigned-proof/HOLLOW_UNSIGNED_TX_PROOF.json"
+    },
+    "freshReadback": {
+      "result": "official IDLs, RPC funding/account absence, and public gate read-only PASS",
+      "source": "hollow-launch-prep/fresh-readback/HOLLOW_FRESH_READBACK.json"
     }
   },
   "idlHashes": [
@@ -59,8 +91,10 @@
   "forbiddenClaims": [
     "guaranteed candle",
     "guaranteed volume",
-    "completed autonomous flywheel before drain/migration/PumpSwap/buy-burn proof",
-    "normal Pump trades call the HOLLOW program"
+    "live token before Pump create confirms the planned mint",
+    "mainnet autonomous flywheel before signed readback and authority proof",
+    "normal Pump trades call the HOLLOW program",
+    "unseeded small-fee birth works"
   ],
   "postCreateBackfill": {
     "mint": "PENDING_LIVE_CREATE",
