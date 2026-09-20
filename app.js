@@ -8,7 +8,7 @@ const nodes = [
   { label: 'IDL Hashes', x: .28, y: .55, color: '#9ad6ff' },
   { label: 'Pump Create', x: .47, y: .31, color: '#f5c16c' },
   { label: 'HOLLOW Creator', x: .66, y: .55, color: '#d9b7ff' },
-  { label: 'CA Backfill', x: .86, y: .32, color: '#ff8f9b' },
+  { label: 'Planned CA', x: .86, y: .32, color: '#ff8f9b' },
 ];
 
 const edges = [[0, 1], [1, 2], [2, 3], [3, 4], [4, 0]];
@@ -81,4 +81,3 @@ function draw(t) {
 resize();
 window.addEventListener('resize', resize);
 requestAnimationFrame(draw);
-

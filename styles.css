@@ -110,6 +110,13 @@ h1 {
   color: #d7e1de;
 }
 
+.address {
+  color: var(--signal);
+  font-size: .92rem;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
 dl {
   margin: 18px 0 0;
   display: grid;
