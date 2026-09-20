@@ -1,0 +1,56 @@
+{
+  "name": "HOLLOW PROOF",
+  "symbol": "HOLLOW",
+  "status": "prelaunch-proof-packet-public-inputs-received",
+  "updatedAt": "2026-09-20T12:12:00Z",
+  "website": "https://hollow.ratchetx.xyz/",
+  "metadata": "https://hollow.ratchetx.xyz/token.json",
+  "image": "https://hollow.ratchetx.xyz/hollow-proof-token-art.png",
+  "xPost": "https://x.com/SonyxEth/status/2101643564702638589?s=20",
+  "claim": "A Pump token born from a public evidence packet, with the mint/CA backfilled after creation.",
+  "capitalRecovery": {
+    "prepared": true,
+    "destination": "HXFDaHyZ3i477z1BakiTWZg9UQN8rcreruuv9ifC1HvM",
+    "grossReclaimSol": 0.168285969,
+    "expectedNetSol": 0.168275969,
+    "simulationPassed": true,
+    "packetBytes": 830
+  },
+  "proofs": {
+    "pumpIdlCaptureDate": "2026-09-20",
+    "chainArtAssertions": "18/18",
+    "hollowStatic": "15/15",
+    "hollowModel": "15/15",
+    "createV2OffCurveCreatorSimulation": {
+      "err": null,
+      "unitsConsumed": 95578,
+      "boundary": "No-spend simulation; not fee lifecycle proof."
+    }
+  },
+  "idlHashes": [
+    {
+      "name": "pump.json",
+      "sha256": "d9ba3eb509ccf315baa9ac655a3bcf45506a6c477af2b16f3f5ba93a135aec29"
+    },
+    {
+      "name": "pump_amm.json",
+      "sha256": "a169522f756aacd6e03d32dd1ee63321a6196442e9d7e0edc9a77d1a9e30f4dc"
+    },
+    {
+      "name": "pump_fees.json",
+      "sha256": "510536a37bf40222fe6c307edd81df1a3c34a8009ca7479a4033aee478feddc5"
+    }
+  ],
+  "forbiddenClaims": [
+    "guaranteed candle",
+    "guaranteed volume",
+    "completed autonomous flywheel before lifecycle proof",
+    "normal Pump trades call the HOLLOW program"
+  ],
+  "postCreateBackfill": {
+    "mint": "PENDING",
+    "pumpUrl": "PENDING",
+    "createTx": "PENDING",
+    "metadataHash": "PENDING"
+  }
+}

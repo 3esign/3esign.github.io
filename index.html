@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HOLLOW PROOF</title>
+  <meta name="description" content="A Pump token born from a public evidence packet.">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <main class="shell">
+    <section class="mast">
+      <div>
+        <p class="kicker">Prelaunch proof packet</p>
+        <h1>HOLLOW PROOF</h1>
+      </div>
+      <p class="statement">A Pump token whose birth record is made of hashes, accounts, authority, fees and backfilled transactions.</p>
+      <img class="token-mark" src="./hollow-proof-token-art.png" alt="HOLLOW PROOF token mark">
+    </section>
+
+    <section class="grid">
+      <article class="panel primary">
+        <div class="panel-head">
+          <span>Claim Boundary</span>
+          <strong>not a price promise</strong>
+        </div>
+        <p>HOLLOW can claim a dated evidence packet, current Pump IDL hashes and a no-spend creator-path simulation. It cannot claim a completed autonomous flywheel until the fee lifecycle is proven.</p>
+      </article>
+
+      <article class="panel">
+        <div class="panel-head">
+          <span>Recovery Gate</span>
+          <strong>simulated</strong>
+        </div>
+        <dl>
+          <div><dt>Gross</dt><dd>0.168285969 SOL</dd></div>
+          <div><dt>Net est.</dt><dd>0.168275969 SOL</dd></div>
+          <div><dt>Packet</dt><dd>830 B</dd></div>
+        </dl>
+      </article>
+    </section>
+
+    <section class="proof-map" aria-label="HOLLOW account and proof topology">
+      <canvas id="chain-map" width="1100" height="420"></canvas>
+    </section>
+
+    <section class="columns">
+      <article>
+        <h2>Proven</h2>
+        <ul>
+          <li>Pump IDL capture: 2026-09-20</li>
+          <li>Chain-art assertions: 18/18</li>
+          <li>HOLLOW static/model gates: 15/15 + 15/15</li>
+          <li>Off-curve creator path accepted in no-spend create simulation</li>
+        </ul>
+      </article>
+      <article>
+        <h2>Pending</h2>
+        <ul>
+          <li>Direct creator-fee collect destination</li>
+          <li>Controller drain and spend behavior</li>
+          <li>Migration carry into PumpSwap</li>
+          <li>Buy/burn or proof-cycle action with exact deltas</li>
+        </ul>
+      </article>
+      <article>
+        <h2>Forbidden</h2>
+        <ul>
+          <li>No guaranteed candle</li>
+          <li>No guaranteed volume</li>
+          <li>No hidden Pump callback claim</li>
+          <li>No autonomous claim before lifecycle proof</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="hashes">
+      <h2>IDL Hashes</h2>
+      <code>d9ba3e...5aec29 / pump.json</code>
+      <code>a16952...30f4dc / pump_amm.json</code>
+      <code>510536...8feddc5 / pump_fees.json</code>
+      <a href="https://x.com/SonyxEth/status/2101643564702638589?s=20" rel="noopener" target="_blank">X post</a>
+    </section>
+  </main>
+  <script src="./app.js"></script>
+</body>
+</html>
