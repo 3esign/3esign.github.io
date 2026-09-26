@@ -12,7 +12,6 @@
     "imageUrl": "https://3esign.github.io/warp/og-image.png",
     "buttonTitle": "🔴 PRESS THE BUTTON",
     "splashImageUrl": "https://3esign.github.io/warp/icon.png",
-    "splashBackgroundColor": "#07090e",
-    "webhookUrl": ""
+    "splashBackgroundColor": "#07090e"
   }
 }
