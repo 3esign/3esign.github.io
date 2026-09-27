@@ -11,7 +11,17 @@
     "homeUrl": "https://3esign.github.io/warp/",
     "imageUrl": "https://3esign.github.io/warp/og-image.png",
     "buttonTitle": "🔴 PRESS THE BUTTON",
-    "splashImageUrl": "https://3esign.github.io/warp/icon.png",
+    "splashImageUrl": "https://3esign.github.io/s.png",
+    "splashBackgroundColor": "#07090e"
+  },
+  "miniapp": {
+    "version": "1",
+    "name": "The Warp Button",
+    "iconUrl": "https://3esign.github.io/warp/icon.png",
+    "homeUrl": "https://3esign.github.io/warp/",
+    "imageUrl": "https://3esign.github.io/warp/og-image.png",
+    "buttonTitle": "🔴 PRESS THE BUTTON",
+    "splashImageUrl": "https://3esign.github.io/s.png",
     "splashBackgroundColor": "#07090e"
   }
 }
