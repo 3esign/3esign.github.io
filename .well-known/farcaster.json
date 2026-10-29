@@ -6,34 +6,48 @@
   },
   "frame": {
     "version": "1",
-    "name": "The Warp Button",
-    "iconUrl": "https://3esign.github.io/warp/icon.png",
-    "homeUrl": "https://3esign.github.io/warp/",
-    "imageUrl": "https://3esign.github.io/warp/og-image.png",
-    "buttonTitle": "🔴 PRESS THE BUTTON",
+    "name": "istina-frame",
+    "iconUrl": "https://3esign.github.io/istina-frame/icon.png",
+    "homeUrl": "https://3esign.github.io/istina-frame/",
+    "imageUrl": "https://3esign.github.io/istina-frame/og-image.png",
+    "buttonTitle": "Zapiši svoj poziv",
     "splashImageUrl": "https://3esign.github.io/s.png",
-    "splashBackgroundColor": "#07090e",
-    "description": "Press on Base to join the prize pot. Be the last player before the timer ends, then claim the round winnings.",
-    "subtitle": "The last press wins",
-    "primaryCategory": "games",
-    "tags": ["game", "base", "onchain", "multiplayer"],
+    "splashBackgroundColor": "#0b0e14",
+    "description": "Zapiši svoj poziv pre ishoda. FID + cast + vreme, zapečaćeno na Base-u, javna rang-lista.",
+    "subtitle": "Dokaz prvenstva poziva",
+    "primaryCategory": "social",
+    "tags": [
+      "base",
+      "onchain",
+      "istina",
+      "registar"
+    ],
     "noindex": false,
-    "requiredChains": ["eip155:8453"]
+    "requiredChains": [
+      "eip155:8453"
+    ]
   },
   "miniapp": {
     "version": "1",
-    "name": "The Warp Button",
-    "iconUrl": "https://3esign.github.io/warp/icon.png",
-    "homeUrl": "https://3esign.github.io/warp/",
-    "imageUrl": "https://3esign.github.io/warp/og-image.png",
-    "buttonTitle": "🔴 PRESS THE BUTTON",
+    "name": "istina-frame",
+    "iconUrl": "https://3esign.github.io/istina-frame/icon.png",
+    "homeUrl": "https://3esign.github.io/istina-frame/",
+    "imageUrl": "https://3esign.github.io/istina-frame/og-image.png",
+    "buttonTitle": "Zapiši svoj poziv",
     "splashImageUrl": "https://3esign.github.io/s.png",
-    "splashBackgroundColor": "#07090e",
-    "description": "Press on Base to join the prize pot. Be the last player before the timer ends, then claim the round winnings.",
-    "subtitle": "The last press wins",
-    "primaryCategory": "games",
-    "tags": ["game", "base", "onchain", "multiplayer"],
+    "splashBackgroundColor": "#0b0e14",
+    "description": "Zapiši svoj poziv pre ishoda. FID + cast + vreme, zapečaćeno na Base-u, javna rang-lista.",
+    "subtitle": "Dokaz prvenstva poziva",
+    "primaryCategory": "social",
+    "tags": [
+      "base",
+      "onchain",
+      "istina",
+      "registar"
+    ],
     "noindex": false,
-    "requiredChains": ["eip155:8453"]
+    "requiredChains": [
+      "eip155:8453"
+    ]
   }
 }
