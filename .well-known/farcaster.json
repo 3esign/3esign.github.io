@@ -33,8 +33,11 @@
     ],
     "requiredCapabilities": [
       "wallet.getEthereumProvider",
-      "actions.composeCast"
-    ]
+      "actions.composeCast",
+      "actions.viewProfile",
+      "back"
+    ],
+    "castShareUrl": "https://3esign.github.io/poziv/"
   },
   "miniapp": {
     "version": "1",
@@ -65,7 +68,10 @@
     ],
     "requiredCapabilities": [
       "wallet.getEthereumProvider",
-      "actions.composeCast"
-    ]
+      "actions.composeCast",
+      "actions.viewProfile",
+      "back"
+    ],
+    "castShareUrl": "https://3esign.github.io/poziv/"
   }
 }
