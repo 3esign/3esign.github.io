@@ -31,12 +31,7 @@
     "requiredChains": [
       "eip155:8453"
     ],
-    "requiredCapabilities": [
-      "wallet.getEthereumProvider",
-      "actions.composeCast",
-      "actions.viewProfile",
-      "back"
-    ],
+    "supportsFullScreen": true,
     "castShareUrl": "https://3esign.github.io/poziv/"
   },
   "miniapp": {
@@ -66,12 +61,7 @@
     "requiredChains": [
       "eip155:8453"
     ],
-    "requiredCapabilities": [
-      "wallet.getEthereumProvider",
-      "actions.composeCast",
-      "actions.viewProfile",
-      "back"
-    ],
+    "supportsFullScreen": true,
     "castShareUrl": "https://3esign.github.io/poziv/"
   }
 }
