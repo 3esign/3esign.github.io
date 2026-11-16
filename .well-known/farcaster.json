@@ -6,48 +6,66 @@
   },
   "frame": {
     "version": "1",
-    "name": "istina-frame",
-    "iconUrl": "https://3esign.github.io/istina-frame/icon.png",
-    "homeUrl": "https://3esign.github.io/istina-frame/",
-    "imageUrl": "https://3esign.github.io/istina-frame/og-image.png",
-    "buttonTitle": "Zapiši svoj poziv",
-    "splashImageUrl": "https://3esign.github.io/s.png",
-    "splashBackgroundColor": "#0b0e14",
-    "description": "Zapiši svoj poziv pre ishoda. FID + cast + vreme, zapečaćeno na Base-u, javna rang-lista.",
-    "subtitle": "Dokaz prvenstva poziva",
+    "name": "Poziv",
+    "iconUrl": "https://3esign.github.io/poziv/icon.png",
+    "homeUrl": "https://3esign.github.io/poziv/",
+    "imageUrl": "https://3esign.github.io/poziv/og.png",
+    "buttonTitle": "Make a call",
+    "splashImageUrl": "https://3esign.github.io/poziv/splash.png",
+    "splashBackgroundColor": "#2447dc",
+    "description": "Make a call with a deadline. People back it or doubt it from their own wallet. Every call and vote lives on Base: no server, no owner.",
+    "subtitle": "Calls and votes on Base",
+    "tagline": "Back it or doubt it",
     "primaryCategory": "social",
     "tags": [
       "base",
       "onchain",
-      "istina",
-      "registar"
+      "predictions",
+      "vote"
     ],
+    "heroImageUrl": "https://3esign.github.io/poziv/og.png",
+    "ogTitle": "Poziv — Make a call",
+    "ogDescription": "A call, a deadline, an open vote. Stored on Base.",
+    "ogImageUrl": "https://3esign.github.io/poziv/og.png",
     "noindex": false,
     "requiredChains": [
       "eip155:8453"
+    ],
+    "requiredCapabilities": [
+      "wallet.getEthereumProvider",
+      "actions.composeCast"
     ]
   },
   "miniapp": {
     "version": "1",
-    "name": "istina-frame",
-    "iconUrl": "https://3esign.github.io/istina-frame/icon.png",
-    "homeUrl": "https://3esign.github.io/istina-frame/",
-    "imageUrl": "https://3esign.github.io/istina-frame/og-image.png",
-    "buttonTitle": "Zapiši svoj poziv",
-    "splashImageUrl": "https://3esign.github.io/s.png",
-    "splashBackgroundColor": "#0b0e14",
-    "description": "Zapiši svoj poziv pre ishoda. FID + cast + vreme, zapečaćeno na Base-u, javna rang-lista.",
-    "subtitle": "Dokaz prvenstva poziva",
+    "name": "Poziv",
+    "iconUrl": "https://3esign.github.io/poziv/icon.png",
+    "homeUrl": "https://3esign.github.io/poziv/",
+    "imageUrl": "https://3esign.github.io/poziv/og.png",
+    "buttonTitle": "Make a call",
+    "splashImageUrl": "https://3esign.github.io/poziv/splash.png",
+    "splashBackgroundColor": "#2447dc",
+    "description": "Make a call with a deadline. People back it or doubt it from their own wallet. Every call and vote lives on Base: no server, no owner.",
+    "subtitle": "Calls and votes on Base",
+    "tagline": "Back it or doubt it",
     "primaryCategory": "social",
     "tags": [
       "base",
       "onchain",
-      "istina",
-      "registar"
+      "predictions",
+      "vote"
     ],
+    "heroImageUrl": "https://3esign.github.io/poziv/og.png",
+    "ogTitle": "Poziv — Make a call",
+    "ogDescription": "A call, a deadline, an open vote. Stored on Base.",
+    "ogImageUrl": "https://3esign.github.io/poziv/og.png",
     "noindex": false,
     "requiredChains": [
       "eip155:8453"
+    ],
+    "requiredCapabilities": [
+      "wallet.getEthereumProvider",
+      "actions.composeCast"
     ]
   }
 }
